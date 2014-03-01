@@ -1,0 +1,2461 @@
+/* Created by Artisteer v4.1.0.60046 */
+
+#crab-main
+{
+   background: #FFFFFF;
+   margin:0 auto;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position: relative;
+   width: 100%;
+   min-height: 100%;
+   left: 0;
+   top: 0;
+   cursor:default;
+   overflow:hidden;
+}
+table, ul.crab-hmenu
+{
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
+{
+   margin: 0;
+   padding: 0;
+}
+
+/* Reset buttons border. It's important for input and button tags. 
+ * border-collapse should be separate for shadow in IE. 
+ */
+.crab-button
+{
+   border: 0;
+   border-collapse: separate;
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+   background: #7BCF54;
+   border-width: 0;
+   padding:0 20px;
+   margin:0 auto;
+   height:31px;
+}
+
+.crab-postcontent,
+.crab-postheadericons,
+.crab-postfootericons,
+.crab-blockcontent,
+ul.crab-vmenu a 
+{
+   text-align: left;
+}
+
+.crab-postcontent,
+.crab-postcontent li,
+.crab-postcontent table,
+.crab-postcontent a,
+.crab-postcontent a:link,
+.crab-postcontent a:visited,
+.crab-postcontent a.visited,
+.crab-postcontent a:hover,
+.crab-postcontent a.hovered
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.crab-postcontent p
+{
+   margin: 12px 0;
+}
+
+.crab-postcontent h1, .crab-postcontent h1 a, .crab-postcontent h1 a:link, .crab-postcontent h1 a:visited, .crab-postcontent h1 a:hover,
+.crab-postcontent h2, .crab-postcontent h2 a, .crab-postcontent h2 a:link, .crab-postcontent h2 a:visited, .crab-postcontent h2 a:hover,
+.crab-postcontent h3, .crab-postcontent h3 a, .crab-postcontent h3 a:link, .crab-postcontent h3 a:visited, .crab-postcontent h3 a:hover,
+.crab-postcontent h4, .crab-postcontent h4 a, .crab-postcontent h4 a:link, .crab-postcontent h4 a:visited, .crab-postcontent h4 a:hover,
+.crab-postcontent h5, .crab-postcontent h5 a, .crab-postcontent h5 a:link, .crab-postcontent h5 a:visited, .crab-postcontent h5 a:hover,
+.crab-postcontent h6, .crab-postcontent h6 a, .crab-postcontent h6 a:link, .crab-postcontent h6 a:visited, .crab-postcontent h6 a:hover,
+.crab-blockheader .t, .crab-blockheader .t a, .crab-blockheader .t a:link, .crab-blockheader .t a:visited, .crab-blockheader .t a:hover,
+.crab-vmenublockheader .t, .crab-vmenublockheader .t a, .crab-vmenublockheader .t a:link, .crab-vmenublockheader .t a:visited, .crab-vmenublockheader .t a:hover,
+.crab-headline, .crab-headline a, .crab-headline a:link, .crab-headline a:visited, .crab-headline a:hover,
+.crab-slogan, .crab-slogan a, .crab-slogan a:link, .crab-slogan a:visited, .crab-slogan a:hover,
+.crab-postheader, .crab-postheader a, .crab-postheader a:link, .crab-postheader a:visited, .crab-postheader a:hover
+{
+   font-size: 32px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+}
+
+.crab-postcontent a, .crab-postcontent a:link
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #63C337;
+}
+
+.crab-postcontent a:visited, .crab-postcontent a.visited
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #4CBBEB;
+}
+
+.crab-postcontent  a:hover, .crab-postcontent a.hover
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+   color: #87D364;
+}
+
+.crab-postcontent h1
+{
+   color: #7D7D7D;
+   margin: 20px 0;
+   font-size: 32px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.crab-blockcontent h1
+{
+   margin: 20px 0;
+   font-size: 32px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.crab-postcontent h1 a, .crab-postcontent h1 a:link, .crab-postcontent h1 a:hover, .crab-postcontent h1 a:visited, .crab-blockcontent h1 a, .crab-blockcontent h1 a:link, .crab-blockcontent h1 a:hover, .crab-blockcontent h1 a:visited 
+{
+   font-size: 32px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.crab-postcontent h2
+{
+   color: #9C9C9C;
+   margin-top: 19px;
+   margin-bottom: 19px;
+   font-size: 24px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.crab-blockcontent h2
+{
+   margin-top: 19px;
+   margin-bottom: 19px;
+   font-size: 24px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.crab-postcontent h2 a, .crab-postcontent h2 a:link, .crab-postcontent h2 a:hover, .crab-postcontent h2 a:visited, .crab-blockcontent h2 a, .crab-blockcontent h2 a:link, .crab-blockcontent h2 a:hover, .crab-blockcontent h2 a:visited 
+{
+   font-size: 24px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.crab-postcontent h3
+{
+   color: #B5B5B5;
+   margin: 20px 0 10px;
+   font-size: 20px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.crab-blockcontent h3
+{
+   margin: 20px 0 10px;
+   font-size: 20px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.crab-postcontent h3 a, .crab-postcontent h3 a:link, .crab-postcontent h3 a:hover, .crab-postcontent h3 a:visited, .crab-blockcontent h3 a, .crab-blockcontent h3 a:link, .crab-blockcontent h3 a:hover, .crab-blockcontent h3 a:visited 
+{
+   font-size: 20px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.crab-postcontent h4
+{
+   color: #417F24;
+   font-size: 24px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.crab-blockcontent h4
+{
+   font-size: 24px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.crab-postcontent h4 a, .crab-postcontent h4 a:link, .crab-postcontent h4 a:hover, .crab-postcontent h4 a:visited, .crab-blockcontent h4 a, .crab-blockcontent h4 a:link, .crab-blockcontent h4 a:hover, .crab-blockcontent h4 a:visited 
+{
+   font-size: 24px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.crab-postcontent h5
+{
+   color: #696969;
+   font-size: 60px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.crab-blockcontent h5
+{
+   font-size: 60px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.crab-postcontent h5 a, .crab-postcontent h5 a:link, .crab-postcontent h5 a:hover, .crab-postcontent h5 a:visited, .crab-blockcontent h5 a, .crab-blockcontent h5 a:link, .crab-blockcontent h5 a:hover, .crab-blockcontent h5 a:visited 
+{
+   font-size: 60px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.crab-postcontent h6
+{
+   color: #B5B5B5;
+   margin: -5px 0 -15px;
+   font-size: 28px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+}
+
+.crab-blockcontent h6
+{
+   margin: -5px 0 -15px;
+   font-size: 28px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+}
+
+.crab-postcontent h6 a, .crab-postcontent h6 a:link, .crab-postcontent h6 a:hover, .crab-postcontent h6 a:visited, .crab-blockcontent h6 a, .crab-blockcontent h6 a:link, .crab-blockcontent h6 a:hover, .crab-blockcontent h6 a:visited 
+{
+   font-size: 28px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+}
+
+header, footer, article, nav, #crab-hmenu-bg, .crab-sheet, .crab-hmenu a, .crab-vmenu a, .crab-slidenavigator > a, .crab-checkbox:before, .crab-radiobutton:before
+{
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+}
+
+header, footer, article, nav, #crab-hmenu-bg, .crab-sheet, .crab-slidenavigator > a, .crab-checkbox:before, .crab-radiobutton:before
+{
+   display: block;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+ul
+{
+   list-style-type: none;
+}
+
+ol
+{
+   list-style-position: inside;
+}
+
+html, body
+{
+   height: 100%;
+}
+
+body
+{
+   padding: 0;
+   margin:0;
+   min-width: 1000px;
+   color: #3D3D3D;
+}
+
+.crab-header:before, #crab-header-bg:before, .crab-layout-cell:before, .crab-layout-wrapper:before, .crab-footer:before, .crab-nav:before, #crab-hmenu-bg:before, .crab-sheet:before
+{
+   width: 100%;
+   content: " ";
+   display: table;
+}
+.crab-header:after, #crab-header-bg:after, .crab-layout-cell:after, .crab-layout-wrapper:after, .crab-footer:after, .crab-nav:after, #crab-hmenu-bg:after, .crab-sheet:after,
+.cleared, .clearfix:after {
+   clear: both;
+   font: 0/0 serif;
+   display: block;
+   content: " ";
+}
+
+form
+{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+table.position
+{
+   position: relative;
+   width: 100%;
+   table-layout: fixed;
+}
+
+li h1, .crab-postcontent li h1, .crab-blockcontent li h1 
+{
+   margin:1px;
+} 
+li h2, .crab-postcontent li h2, .crab-blockcontent li h2 
+{
+   margin:1px;
+} 
+li h3, .crab-postcontent li h3, .crab-blockcontent li h3 
+{
+   margin:1px;
+} 
+li h4, .crab-postcontent li h4, .crab-blockcontent li h4 
+{
+   margin:1px;
+} 
+li h5, .crab-postcontent li h5, .crab-blockcontent li h5 
+{
+   margin:1px;
+} 
+li h6, .crab-postcontent li h6, .crab-blockcontent li h6 
+{
+   margin:1px;
+} 
+li p, .crab-postcontent li p, .crab-blockcontent li p 
+{
+   margin:1px;
+}
+
+
+.crab-shapes
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   overflow: hidden;
+   z-index: 0;
+}
+
+.crab-slider-inner {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+}
+
+.crab-slidenavigator > a {
+   display: inline-block;
+   vertical-align: middle;
+   outline-style: none;
+   font-size: 1px;
+}
+
+.crab-slidenavigator > a:last-child {
+   margin-right: 0 !important;
+}
+
+.crab-object262492889
+{
+    display: block;
+    left: 0.47%;
+    margin-left: -2px;
+    position: absolute;
+    top: -12px;
+    width: 469px;
+    height: 313px;
+    background-image: url('images/object262492889.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+
+
+
+.crab-footer .layout-item-0 { border-style:Dashed;border-width:0px;border-top-color:#CCCCCC;border-right-color:#CCCCCC;border-bottom-color:#CCCCCC;border-left-color:#CCCCCC; border-spacing: 20px 0px; border-collapse: separate;  }
+.crab-footer .layout-item-1 { padding: 20px;  }
+.ie7 .crab-post .crab-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .crab-post .crab-layout-cell {border:none !important; padding:0 !important; }
+
+.crab-header
+{
+   margin:0 auto;
+   position:relative;
+   height: 300px;
+   background-image: url('images/header.jpg');
+   background-position: center top;
+   background-repeat: no-repeat;
+}
+
+.responsive .crab-header 
+{
+   background-image: url('images/header.jpg');
+   background-position: center center;
+}
+
+.crab-header-inner{
+   position: relative;
+   width: 1000px;
+   z-index: auto !important;
+   margin: 0 auto;
+}
+
+.crab-header>.widget 
+{
+   position:absolute;
+   z-index:101;
+}
+
+.crab-nav
+{
+   background: #000000;
+   margin:0 auto;
+   position: relative;
+   z-index: 499;
+   text-align: left;
+}
+
+ul.crab-hmenu a, ul.crab-hmenu a:link, ul.crab-hmenu a:visited, ul.crab-hmenu a:hover 
+{
+   outline: none;
+   position: relative;
+   z-index: 11;
+}
+
+ul.crab-hmenu, ul.crab-hmenu ul
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   list-style-type: none;
+}
+
+ul.crab-hmenu li
+{
+   position: relative;
+   z-index: 5;
+   display: block;
+   float: left;
+   background: none;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+ul.crab-hmenu li:hover
+{
+   z-index: 10000;
+   white-space: normal;
+}
+
+ul.crab-hmenu:after, ul.crab-hmenu ul:after
+{
+   content: ".";
+   height: 0;
+   display: block;
+   visibility: hidden;
+   overflow: hidden;
+   clear: both;
+}
+
+ul.crab-hmenu, ul.crab-hmenu ul 
+{
+   min-height: 0;
+}
+
+ul.crab-hmenu 
+{
+   display: inline-block;
+   vertical-align: bottom;
+}
+
+.crab-nav:before 
+{
+   content:' ';
+}
+
+.desktop .crab-nav{
+   width: 1000px;
+   padding-left: 0;
+   padding-right: 0;
+}
+
+.crab-hmenu-extra1
+{
+   position: relative;
+   display: block;
+   float: left;
+   width: auto;
+   height: auto;
+   background-position: center;
+}
+
+.crab-hmenu-extra2
+{
+   position: relative;
+   display: block;
+   float: right;
+   width: auto;
+   height: auto;
+   background-position: center;
+}
+
+.crab-hmenu
+{
+   float: left;
+}
+
+.crab-menuitemcontainer
+{
+   margin:0 auto;
+}
+ul.crab-hmenu>li {
+   margin-left: 0;
+}
+ul.crab-hmenu>li:first-child {
+   margin-left: 0;
+}
+ul.crab-hmenu>li:last-child, ul.crab-hmenu>li.last-child {
+   margin-right: 0;
+}
+
+ul.crab-hmenu>li>a
+{
+   padding:0 35px;
+   margin:0 auto;
+   position: relative;
+   display: block;
+   height: 54px;
+   cursor: pointer;
+   text-decoration: none;
+   color: #F5F5F5;
+   line-height: 54px;
+   text-align: center;
+}
+
+.crab-hmenu>li>a, 
+.crab-hmenu>li>a:link, 
+.crab-hmenu>li>a:visited, 
+.crab-hmenu>li>a.active, 
+.crab-hmenu>li>a:hover
+{
+   font-size: 14px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   text-transform: uppercase;
+   text-align: left;
+}
+
+ul.crab-hmenu>li>a.active
+{
+   background: #FFFFFF;
+   padding:0 35px;
+   margin:0 auto;
+   color: #E2341D;
+   text-decoration: none;
+}
+
+ul.crab-hmenu>li>a:visited, 
+ul.crab-hmenu>li>a:hover, 
+ul.crab-hmenu>li:hover>a {
+   text-decoration: none;
+}
+
+ul.crab-hmenu>li>a:hover, .desktop ul.crab-hmenu>li:hover>a
+{
+   background: #5BB332;
+   padding:0 35px;
+   margin:0 auto;
+}
+ul.crab-hmenu>li>a:hover, 
+.desktop ul.crab-hmenu>li:hover>a {
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+ul.crab-hmenu li li a
+{
+   background: #C7C7C7;
+   padding:0 8px;
+   margin:0 auto;
+}
+ul.crab-hmenu li li 
+{
+   float: none;
+   width: auto;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.desktop ul.crab-hmenu li li ul>li:first-child 
+{
+   margin-top: 0;
+}
+
+ul.crab-hmenu li li ul>li:last-child 
+{
+   margin-bottom: 0;
+}
+
+.crab-hmenu ul a
+{
+   display: block;
+   white-space: nowrap;
+   height: 24px;
+   min-width: 7em;
+   border: 0 solid transparent;
+   text-align: left;
+   line-height: 24px;
+   color: #292929;
+   font-size: 12px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   margin:0;
+}
+
+.crab-hmenu ul a:link, 
+.crab-hmenu ul a:visited, 
+.crab-hmenu ul a.active, 
+.crab-hmenu ul a:hover
+{
+   text-align: left;
+   line-height: 24px;
+   color: #292929;
+   font-size: 12px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   margin:0;
+}
+
+ul.crab-hmenu ul li a:hover, .desktop ul.crab-hmenu ul li:hover>a
+{
+   background: #A6A6A6;
+   margin:0 auto;
+}
+.crab-hmenu ul a:hover
+{
+   color: #083649;
+}
+
+.desktop .crab-hmenu ul li:hover>a
+{
+   color: #083649;
+}
+
+ul.crab-hmenu ul:before
+{
+   background: #179BD3;
+   margin:0 auto;
+   display: block;
+   position: absolute;
+   content: ' ';
+   z-index: 1;
+}
+.desktop ul.crab-hmenu li:hover>ul {
+   visibility: visible;
+   top: 100%;
+}
+.desktop ul.crab-hmenu li li:hover>ul {
+   top: 0;
+   left: 100%;
+}
+
+ul.crab-hmenu ul
+{
+   visibility: hidden;
+   position: absolute;
+   z-index: 10;
+   left: 0;
+   top: 0;
+   background-image: url('images/spacer.gif');
+}
+
+.desktop ul.crab-hmenu>li>ul
+{
+   padding: 10px 30px 30px 30px;
+   margin: -10px 0 0 -30px;
+}
+
+.desktop ul.crab-hmenu ul ul
+{
+   padding: 30px 30px 30px 10px;
+   margin: -30px 0 0 -10px;
+}
+
+.desktop ul.crab-hmenu ul.crab-hmenu-left-to-right 
+{
+   right: auto;
+   left: 0;
+   margin: -10px 0 0 -30px;
+}
+
+.desktop ul.crab-hmenu ul.crab-hmenu-right-to-left 
+{
+   left: auto;
+   right: 0;
+   margin: -10px -30px 0 0;
+}
+
+.desktop ul.crab-hmenu li li:hover>ul.crab-hmenu-left-to-right {
+   right: auto;
+   left: 100%;
+}
+.desktop ul.crab-hmenu li li:hover>ul.crab-hmenu-right-to-left {
+   left: auto;
+   right: 100%;
+}
+
+.desktop ul.crab-hmenu ul ul.crab-hmenu-left-to-right
+{
+   right: auto;
+   left: 0;
+   padding: 30px 30px 30px 10px;
+   margin: -30px 0 0 -10px;
+}
+
+.desktop ul.crab-hmenu ul ul.crab-hmenu-right-to-left
+{
+   left: auto;
+   right: 0;
+   padding: 30px 10px 30px 30px;
+   margin: -30px -10px 0 0;
+}
+
+.desktop ul.crab-hmenu li ul>li:first-child {
+   margin-top: 0;
+}
+.desktop ul.crab-hmenu li ul>li:last-child {
+   margin-bottom: 0;
+}
+
+.desktop ul.crab-hmenu ul ul:before
+{
+   border-radius: 0;
+   top: 30px;
+   bottom: 30px;
+   right: 30px;
+   left: 10px;
+}
+
+.desktop ul.crab-hmenu>li>ul:before
+{
+   top: 10px;
+   right: 30px;
+   bottom: 30px;
+   left: 30px;
+}
+
+.desktop ul.crab-hmenu>li>ul.crab-hmenu-left-to-right:before {
+   right: 30px;
+   left: 30px;
+}
+.desktop ul.crab-hmenu>li>ul.crab-hmenu-right-to-left:before {
+   right: 30px;
+   left: 30px;
+}
+.desktop ul.crab-hmenu ul ul.crab-hmenu-left-to-right:before {
+   right: 30px;
+   left: 10px;
+}
+.desktop ul.crab-hmenu ul ul.crab-hmenu-right-to-left:before {
+   right: 10px;
+   left: 30px;
+}
+
+.crab-sheet
+{
+   background: #FFFFFF;
+   margin:0 auto;
+   position:relative;
+   cursor:auto;
+   width: 1000px;
+   z-index: auto !important;
+}
+
+.crab-layout-wrapper
+{
+   position: relative;
+   margin: 0 auto 0 auto;
+   z-index: auto !important;
+}
+
+.crab-content-layout
+{
+   display: table;
+   width: 100%;
+   table-layout: fixed;
+}
+
+.crab-content-layout-row 
+{
+   display: table-row;
+}
+
+.crab-layout-cell
+{
+   display: table-cell;
+   vertical-align: top;
+}
+
+/* need only for content layout in post content */ 
+.crab-postcontent .crab-content-layout
+{
+   border-collapse: collapse;
+}
+
+.crab-block
+{
+   margin:10px;
+}
+div.crab-block img
+{
+   border: none;
+   margin: 7px;
+}
+
+.crab-blockheader
+{
+   background: #171717 url('images/blockheader.png') scroll;
+   border:1px solid #949494;
+   padding:12px 3px;
+   margin:0 auto 2px;
+}
+.crab-blockheader .t,
+.crab-blockheader .t a,
+.crab-blockheader .t a:link,
+.crab-blockheader .t a:visited, 
+.crab-blockheader .t a:hover
+{
+   color: #3AB4E9;
+   font-size: 14px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   margin: 0 10px 0 5px;
+}
+
+.crab-blockcontent
+{
+   padding:3px;
+   margin:0 auto;
+   color: #3D3D3D;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+.crab-blockcontent table,
+.crab-blockcontent li, 
+.crab-blockcontent a,
+.crab-blockcontent a:link,
+.crab-blockcontent a:visited,
+.crab-blockcontent a:hover
+{
+   color: #3D3D3D;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.crab-blockcontent p
+{
+   margin: 6px 0;
+}
+
+.crab-blockcontent a, .crab-blockcontent a:link
+{
+   color: #35671D;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+}
+
+.crab-blockcontent a:visited, .crab-blockcontent a.visited
+{
+   color: #7ECEF1;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.crab-blockcontent a:hover, .crab-blockcontent a.hover
+{
+   color: #0D5877;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+.crab-block ul>li:before
+{
+   content:url('images/blockbullets.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   margin-left: -12px;
+}
+.opera .crab-block ul>li:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.crab-block li
+{
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 125%;
+   color: #158ABC;
+}
+
+.crab-block ul>li, .crab-block ol
+{
+   padding: 0;
+}
+
+.crab-block ul>li
+{
+   padding-left: 12px;
+}
+
+.crab-breadcrumbs
+{
+   margin:0 auto;
+}
+
+a.crab-button,
+a.crab-button:link,
+a:link.crab-button:link,
+body a.crab-button:link,
+a.crab-button:visited,
+body a.crab-button:visited,
+input.crab-button,
+button.crab-button
+{
+   text-decoration: none;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position:relative;
+   display: inline-block;
+   vertical-align: middle;
+   white-space: nowrap;
+   text-align: center;
+   color: #FFFFFF;
+   margin: 0 5px 0 0 !important;
+   overflow: visible;
+   cursor: pointer;
+   text-indent: 0;
+   line-height: 31px;
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+}
+
+.crab-button img
+{
+   margin: 0;
+   vertical-align: middle;
+}
+
+.firefox2 .crab-button
+{
+   display: block;
+   float: left;
+}
+
+input, select, textarea, a.crab-search-button span
+{
+   vertical-align: middle;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.crab-block select 
+{
+   width:96%;
+}
+
+input.crab-button
+{
+   float: none !important;
+}
+
+.crab-button.active, .crab-button.active:hover
+{
+   background: #5BB332;
+   border-width: 0;
+   padding:0 20px;
+   margin:0 auto;
+}
+.crab-button.active, .crab-button.active:hover {
+   color: #FFFFFF !important;
+}
+
+.crab-button.hover, .crab-button:hover
+{
+   background: #71C9EF;
+   border-width: 0;
+   padding:0 20px;
+   margin:0 auto;
+}
+.crab-button.hover, .crab-button:hover {
+   color: #FFFFFF !important;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
+{
+   background: #F9FAFB;
+   border:1px solid rgba(123, 207, 84, 0.2);
+   margin:0 auto;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
+{
+   width: auto;
+   padding: 8px 0;
+   color: #315F1B !important;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-shadow: none;
+}
+input.crab-error, textarea.crab-error
+{
+   background: #F9FAFB;
+   border:1px solid #E2341D;
+   margin:0 auto;
+}
+input.crab-error, textarea.crab-error {
+   color: #315F1B !important;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+form.crab-search input[type="text"]
+{
+   background: #F9FAFB;
+   border-radius: 0;
+   border:1px solid #CCD6E0;
+   margin:0 auto;
+   width: 100%;
+   padding: 0 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   color: #315F1B !important;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+form.crab-search 
+{
+   background-image: none;
+   border: 0;
+   display:block;
+   position:relative;
+   top:0;
+   padding:0;
+   margin:5px;
+   left:0;
+   line-height: 0;
+}
+
+form.crab-search input, a.crab-search-button
+{
+   top:0;
+   right:0;
+}
+
+form.crab-search>input, a.crab-search-button{
+   bottom:0;
+   left:0;
+   vertical-align: middle;
+}
+
+form.crab-search input[type="submit"], input.crab-search-button, a.crab-search-button
+{
+   background: #71C9EF;
+   -webkit-border-radius:0 -1px -1px 0;
+   -moz-border-radius:0 -1px -1px 0;
+   border-radius:0 -1px -1px 0;
+   margin:0 auto;
+}
+form.crab-search input[type="submit"], input.crab-search-button, a.crab-search-button {
+   position:absolute;
+   left:auto;
+   display:block;
+   border: 0;
+   top: 1px;
+   bottom: 1px;
+   right: 	1px;
+   padding:0 6px;
+   color: #0E5E81 !important;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   cursor: pointer;
+}
+
+a.crab-search-button span.crab-search-button-text, a.crab-search-button:after {
+   vertical-align:middle;
+}
+
+a.crab-search-button:after {
+   display:inline-block;
+   content:' ';
+   height: 100%;
+}
+
+a.crab-search-button, a.crab-search-button span,
+a.crab-search-button:visited, a.crab-search-button.visited,
+a.crab-search-button:hover, a.crab-search-button.hover 
+{
+   text-decoration: none;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+label.crab-checkbox:before
+{
+   background: #F9FAFB;
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:1px;
+   border-width: 0;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+}
+label.crab-checkbox
+{
+   cursor: pointer;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 16px;
+   display: inline-block;
+   color: #315F1B !important;
+}
+
+.crab-checkbox>input[type="checkbox"]
+{
+   margin: 0 5px 0 0;
+}
+
+label.crab-checkbox.active:before
+{
+   background: #C7C7C7;
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:1px;
+   border-width: 0;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.crab-checkbox.hovered:before
+{
+   background: #E0E0E0;
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:1px;
+   border-width: 0;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.crab-radiobutton:before
+{
+   background: #F9FAFB;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   border-width: 0;
+   margin:0 auto;
+   width:12px;
+   height:12px;
+}
+label.crab-radiobutton
+{
+   cursor: pointer;
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 12px;
+   display: inline-block;
+   color: #315F1B !important;
+}
+
+.crab-radiobutton>input[type="radio"]
+{
+   vertical-align: baseline;
+   margin: 0 5px 0 0;
+}
+
+label.crab-radiobutton.active:before
+{
+   background: #C7C7C7;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   border-width: 0;
+   margin:0 auto;
+   width:12px;
+   height:12px;
+   display: inline-block;
+}
+
+label.crab-radiobutton.hovered:before
+{
+   background: #E0E0E0;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   border-width: 0;
+   margin:0 auto;
+   width:12px;
+   height:12px;
+   display: inline-block;
+}
+
+.crab-comments
+{
+   border-top:1px dotted #B5B5B5;
+   margin:0 auto;
+   margin-top: 25px;
+}
+
+.crab-comments h2
+{
+   color: #292929;
+}
+
+.crab-comment-inner
+{
+   background: #E2E8EE;
+   background: transparent;
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius:2px;
+   padding:5px;
+   margin:0 auto;
+   margin-left: 94px;
+}
+.crab-comment-avatar 
+{
+   float:left;
+   width:80px;
+   height:80px;
+   padding:1px;
+   background:#fff;
+   border:1px solid #E2E8EE;
+}
+
+.crab-comment-avatar>img
+{
+   margin:0 !important;
+   border:none !important;
+}
+
+.crab-comment-content
+{
+   padding:10px 0;
+   color: #0C516E;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.crab-comment
+{
+   margin-top: 6px;
+}
+
+.crab-comment:first-child
+{
+   margin-top: 0;
+}
+
+.crab-comment-header
+{
+   color: #292929;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 100%;
+}
+
+.crab-comment-header a, 
+.crab-comment-header a:link, 
+.crab-comment-header a:visited,
+.crab-comment-header a.visited,
+.crab-comment-header a:hover,
+.crab-comment-header a.hovered
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 100%;
+}
+
+.crab-comment-header a, .crab-comment-header a:link
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #858585;
+}
+
+.crab-comment-header a:visited, .crab-comment-header a.visited
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #858585;
+}
+
+.crab-comment-header a:hover,  .crab-comment-header a.hovered
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #858585;
+}
+
+.crab-comment-content a, 
+.crab-comment-content a:link, 
+.crab-comment-content a:visited,
+.crab-comment-content a.visited,
+.crab-comment-content a:hover,
+.crab-comment-content a.hovered
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.crab-comment-content a, .crab-comment-content a:link
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #53A32E;
+}
+
+.crab-comment-content a:visited, .crab-comment-content a.visited
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #106C93;
+}
+
+.crab-comment-content a:hover,  .crab-comment-content a.hovered
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #53A32E;
+}
+
+.crab-pager
+{
+   background: #EFF2F5;
+   background: linear-gradient(top, #FFFFFF 0, #93A8BE 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #FFFFFF 0, #93A8BE 100%) no-repeat;
+   background: -moz-linear-gradient(top, #FFFFFF 0, #93A8BE 100%) no-repeat;
+   background: -o-linear-gradient(top, #FFFFFF 0, #93A8BE 100%) no-repeat;
+   background: -ms-linear-gradient(top, #FFFFFF 0, #93A8BE 100%) no-repeat;
+   background: linear-gradient(top, #FFFFFF 0, #93A8BE 100%) no-repeat;
+   -svg-background: linear-gradient(top, #FFFFFF 0, #93A8BE 100%) no-repeat;
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius:2px;
+   border:1px solid #B5B5B5;
+   padding:5px;
+}
+
+.crab-pager>*:last-child
+{
+   margin-right:0 !important;
+}
+
+.crab-pager>span {
+   cursor:default;
+}
+
+.crab-pager>*
+{
+   background: #E0E0E0;
+   background: linear-gradient(top, #FFFFFF 0, #ABABAB 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #FFFFFF 0, #ABABAB 100%) no-repeat;
+   background: -moz-linear-gradient(top, #FFFFFF 0, #ABABAB 100%) no-repeat;
+   background: -o-linear-gradient(top, #FFFFFF 0, #ABABAB 100%) no-repeat;
+   background: -ms-linear-gradient(top, #FFFFFF 0, #ABABAB 100%) no-repeat;
+   background: linear-gradient(top, #FFFFFF 0, #ABABAB 100%) no-repeat;
+   -svg-background: linear-gradient(top, #FFFFFF 0, #ABABAB 100%) no-repeat;
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius:2px;
+   border:1px solid #E0E0E0;
+   padding:7px;
+   margin:0 4px 0 auto;
+   line-height: normal;
+   position:relative;
+   display:inline-block;
+   margin-left: 0;
+}
+
+.crab-pager a:link,
+.crab-pager a:visited,
+.crab-pager .active
+{
+   line-height: normal;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #212121
+;
+}
+
+.crab-pager .active
+{
+   background: #B6BFC9;
+   background: linear-gradient(top, #E5E8EB 0, #8796A6 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #E5E8EB 0, #8796A6 100%) no-repeat;
+   background: -moz-linear-gradient(top, #E5E8EB 0, #8796A6 100%) no-repeat;
+   background: -o-linear-gradient(top, #E5E8EB 0, #8796A6 100%) no-repeat;
+   background: -ms-linear-gradient(top, #E5E8EB 0, #8796A6 100%) no-repeat;
+   background: linear-gradient(top, #E5E8EB 0, #8796A6 100%) no-repeat;
+   -svg-background: linear-gradient(top, #E5E8EB 0, #8796A6 100%) no-repeat;
+   border:1px solid #E0E0E0;
+   padding:7px;
+   margin:0 4px 0 auto;
+   color: #FFFFFF
+;
+}
+
+.crab-pager .more
+{
+   background: #E0E0E0;
+   background: linear-gradient(top, #FFFFFF 0, #ABABAB 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #FFFFFF 0, #ABABAB 100%) no-repeat;
+   background: -moz-linear-gradient(top, #FFFFFF 0, #ABABAB 100%) no-repeat;
+   background: -o-linear-gradient(top, #FFFFFF 0, #ABABAB 100%) no-repeat;
+   background: -ms-linear-gradient(top, #FFFFFF 0, #ABABAB 100%) no-repeat;
+   background: linear-gradient(top, #FFFFFF 0, #ABABAB 100%) no-repeat;
+   -svg-background: linear-gradient(top, #FFFFFF 0, #ABABAB 100%) no-repeat;
+   border:1px solid #E0E0E0;
+   margin:0 4px 0 auto;
+}
+.crab-pager a.more:link,
+.crab-pager a.more:visited
+{
+   color: #1A340F
+;
+}
+.crab-pager a:hover
+{
+   background: #C7C7C7;
+   background: linear-gradient(top, #F0F0F0 0, #9E9E9E 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #F0F0F0 0, #9E9E9E 100%) no-repeat;
+   background: -moz-linear-gradient(top, #F0F0F0 0, #9E9E9E 100%) no-repeat;
+   background: -o-linear-gradient(top, #F0F0F0 0, #9E9E9E 100%) no-repeat;
+   background: -ms-linear-gradient(top, #F0F0F0 0, #9E9E9E 100%) no-repeat;
+   background: linear-gradient(top, #F0F0F0 0, #9E9E9E 100%) no-repeat;
+   -svg-background: linear-gradient(top, #F0F0F0 0, #9E9E9E 100%) no-repeat;
+   border:1px solid #E0E0E0;
+   padding:7px;
+   margin:0 4px 0 auto;
+}
+.crab-pager  a:hover,
+.crab-pager  a.more:hover
+{
+   color: #292929
+;
+}
+.crab-pager>*:after
+{
+   margin:0 0 0 auto;
+   display:inline-block;
+   position:absolute;
+   content: ' ';
+   top:0;
+   width:0;
+   height:100%;
+   right: 0;
+   text-decoration:none;
+}
+
+.crab-pager>*:last-child:after{
+   display:none;
+}
+
+.crab-commentsform
+{
+   background: #E2E8EE;
+   background: transparent;
+   padding:10px;
+   margin:0 auto;
+   margin-top:25px;
+   color: #292929;
+}
+
+.crab-commentsform h2{
+   padding-bottom:10px;
+   margin: 0;
+   color: #292929;
+}
+
+.crab-commentsform label {
+   display: inline-block;
+   line-height: 25px;
+}
+
+.crab-commentsform input:not([type=submit]), .crab-commentsform textarea {
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   width:100%;
+   max-width:100%;
+}
+
+.crab-commentsform .form-submit
+{
+   margin-top: 10px;
+}
+.crab-post
+{
+   background: #FAFDFE;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.1);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.1);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.1);
+   padding:3px;
+   margin:10px;
+}
+a img
+{
+   border: 0;
+}
+
+.crab-article img, img.crab-article, .crab-block img, .crab-footer img
+{
+   margin: 10px 10px 10px 10px;
+}
+
+.crab-metadata-icons img
+{
+   border: none;
+   vertical-align: middle;
+   margin: 2px;
+}
+
+.crab-article table, table.crab-article
+{
+   border-collapse: collapse;
+   margin: 1px;
+}
+
+.crab-post .crab-content-layout-br
+{
+   height: 0;
+}
+
+.crab-article th, .crab-article td
+{
+   padding: 2px;
+   border: dotted 1px #828282;
+   vertical-align: top;
+   text-align: left;
+}
+
+.crab-article th
+{
+   text-align: center;
+   vertical-align: middle;
+   padding: 7px;
+}
+
+pre
+{
+   overflow: auto;
+   padding: 0.1em;
+}
+
+.preview-cms-logo
+{
+   border: 0;
+   margin: 1em 1em 0 0;
+   float: left;
+}
+
+.image-caption-wrapper
+{
+   padding: 10px 10px 10px 10px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper img
+{
+   margin: 0 !important;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper div.crab-collage
+{
+   margin: 0 !important;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper p
+{
+   font-size: 80%;
+   text-align: right;
+   margin: 0;
+}
+
+.crab-postmetadataheader
+{
+   background: #EBEBEB;
+   background: rgba(235, 235, 235, 0.8);
+   margin:0 auto;
+   position:relative;
+   z-index:1;
+   padding: 1px;
+}
+
+.crab-postheader
+{
+   color: #383838;
+   margin: 10px 0 0 25px;
+   font-size: 32px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.crab-postheader a, 
+.crab-postheader a:link, 
+.crab-postheader a:visited,
+.crab-postheader a.visited,
+.crab-postheader a:hover,
+.crab-postheader a.hovered
+{
+   font-size: 32px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.crab-postheader a, .crab-postheader a:link
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #78CE50;
+}
+
+.crab-postheader a:visited, .crab-postheader a.visited
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #1EAAE6;
+}
+
+.crab-postheader a:hover,  .crab-postheader a.hovered
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #7BCF54;
+}
+
+.crab-postheadericons,
+.crab-postheadericons a,
+.crab-postheadericons a:link,
+.crab-postheadericons a:visited,
+.crab-postheadericons a:hover
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #137DAA;
+}
+
+.crab-postheadericons
+{
+   padding: 1px;
+   margin: 20px 0 0;
+}
+
+.crab-postheadericons a, .crab-postheadericons a:link
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #417F24;
+}
+
+.crab-postheadericons a:visited, .crab-postheadericons a.visited
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: italic;
+   text-decoration: none;
+   color: #525252;
+}
+
+.crab-postheadericons a:hover, .crab-postheadericons a.hover
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: italic;
+   text-decoration: underline;
+   color: #55A72F;
+}
+
+.crab-postdateicon:before
+{
+   content:url('images/postdateicon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .crab-postdateicon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.crab-postauthoricon:before
+{
+   content:url('images/postauthoricon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .crab-postauthoricon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.crab-postpdficon:before
+{
+   content:url('images/postpdficon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .crab-postpdficon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.crab-postprinticon:before
+{
+   content:url('images/postprinticon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .crab-postprinticon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.crab-postemailicon:before
+{
+   content:url('images/postemailicon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .crab-postemailicon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.crab-postediticon:before
+{
+   content:url('images/postediticon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .crab-postediticon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.crab-postcontent ul>li:before,  .crab-post ul>li:before,  .crab-textblock ul>li:before
+{
+   content:url('images/postbullets.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .crab-postcontent ul>li:before, .opera   .crab-post ul>li:before, .opera   .crab-textblock ul>li:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.crab-postcontent li, .crab-post li, .crab-textblock li
+{
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #141414;
+   margin: 0 0 5px 1px;
+}
+
+.crab-postcontent ul>li, .crab-post ul>li, .crab-textblock ul>li, .crab-postcontent ol, .crab-post ol, .crab-textblock ol
+{
+   padding: 0;
+}
+
+.crab-postcontent ul>li, .crab-post ul>li, .crab-textblock ul>li
+{
+   padding-left: 16px;
+}
+
+.crab-postcontent ul>li:before,  .crab-post ul>li:before,  .crab-textblock ul>li:before
+{
+   margin-left: -16px;
+}
+
+.crab-postcontent ol, .crab-post ol, .crab-textblock ol, .crab-postcontent ul, .crab-post ul, .crab-textblock ul
+{
+   margin: 1em 0 1em 1px;
+}
+
+.crab-postcontent li ol, .crab-post li ol, .crab-textblock li ol, .crab-postcontent li ul, .crab-post li ul, .crab-textblock li ul
+{
+   margin: 0.5em 0 0.5em 1px;
+}
+
+.crab-postcontent li, .crab-post li, .crab-textblock li
+{
+   margin: 0 0 5px 0;
+}
+
+.crab-postcontent ol>li, .crab-post ol>li, .crab-textblock ol>li
+{
+   /* overrides overflow for "ul li" and sets the default value */
+  overflow: visible;
+}
+
+.crab-postcontent ul>li, .crab-post ul>li, .crab-textblock ul>li
+{
+   /* makes "ul li" not to align behind the image if they are in the same line */
+  overflow-x: visible;
+   overflow-y: hidden;
+}
+
+blockquote
+{
+   background: #B6E3F7 url('images/postquote.png') no-repeat scroll;
+   padding:10px 10px 10px 38px;
+   margin:10px 0 0 25px;
+   color: #03141C;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: italic;
+   text-align: left;
+   /* makes block not to align behind the image if they are in the same line */
+  overflow: auto;
+   clear:both;
+}
+blockquote a, .crab-postcontent blockquote a, .crab-blockcontent blockquote a, .crab-footer blockquote a,
+blockquote a:link, .crab-postcontent blockquote a:link, .crab-blockcontent blockquote a:link, .crab-footer blockquote a:link,
+blockquote a:visited, .crab-postcontent blockquote a:visited, .crab-blockcontent blockquote a:visited, .crab-footer blockquote a:visited,
+blockquote a:hover, .crab-postcontent blockquote a:hover, .crab-blockcontent blockquote a:hover, .crab-footer blockquote a:hover
+{
+   color: #03141C;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: italic;
+   text-align: left;
+}
+
+/* Override native 'p' margins*/
+blockquote p,
+.crab-postcontent blockquote p,
+.crab-blockcontent blockquote p,
+.crab-footer blockquote p
+{
+   margin: 0;
+   margin: 2px 0 2px 15px;
+}
+
+.crab-postmetadatafooter
+{
+   background: #E0E0E0;
+   background: rgba(224, 224, 224, 0.8);
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   border:1px solid #C7C7C7;
+   margin:0 auto;
+   position:relative;
+   z-index:1;
+   padding: 1px;
+}
+
+.crab-postfootericons,
+.crab-postfootericons a,
+.crab-postfootericons a:link,
+.crab-postfootericons a:visited,
+.crab-postfootericons a:hover
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #1276A1;
+}
+
+.crab-postfootericons
+{
+   padding: 1px;
+}
+
+.crab-postfootericons a, .crab-postfootericons a:link
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #53A32E;
+}
+
+.crab-postfootericons a:visited, .crab-postfootericons a.visited
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #4F4F4F;
+}
+
+.crab-postfootericons a:hover, .crab-postfootericons a.hover
+{
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #53A32E;
+}
+
+.crab-postcategoryicon:before
+{
+   content:url('images/postcategoryicon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .crab-postcategoryicon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.crab-posttagicon:before
+{
+   content:url('images/posttagicon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .crab-posttagicon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.crab-postcommentsicon:before
+{
+   content:url('images/postcommentsicon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .crab-postcommentsicon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.crab-footer
+{
+   background: #000000;
+   padding:5px;
+   margin:20px auto 0;
+   position: relative;
+   color: #D4D4D4;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-align: left;
+}
+
+.crab-footer a,
+.crab-footer a:link,
+.crab-footer a:visited,
+.crab-footer a:hover,
+.crab-footer td, 
+.crab-footer th,
+.crab-footer caption
+{
+   color: #D4D4D4;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.crab-footer p 
+{
+   padding:0;
+   text-align: left;
+}
+
+.crab-footer a,
+.crab-footer a:link
+{
+   color: #65C738;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.crab-footer a:visited
+{
+   color: #65C738;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.crab-footer a:hover
+{
+   color: #87D364;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+}
+
+.crab-footer h1
+{
+   color: #A6A6A6;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.crab-footer h2
+{
+   color: #B5B5B5;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.crab-footer h3
+{
+   color: #7BCF54;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.crab-footer h4
+{
+   color: #71C9EF;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.crab-footer h5
+{
+   color: #71C9EF;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.crab-footer h6
+{
+   color: #71C9EF;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.crab-footer img
+{
+   border: none;
+   margin: 10px;
+}
+
+.crab-rss-tag-icon
+{
+   background:  url('images/footerrssicon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+}
+
+.crab-rss-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.crab-facebook-tag-icon
+{
+   background:  url('images/footerfacebookicon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+}
+
+.crab-facebook-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.crab-twitter-tag-icon
+{
+   background:  url('images/footertwittericon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+}
+
+.crab-twitter-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.crab-footer li
+{
+   font-size: 13px;
+   font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 125%;
+   color: #CBECBB;
+}
+
+.crab-page-footer, 
+.crab-page-footer a,
+.crab-page-footer a:link,
+.crab-page-footer a:visited,
+.crab-page-footer a:hover
+{
+   font-family: Arial;
+   font-size: 10px;
+   letter-spacing: normal;
+   word-spacing: normal;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: underline;
+   color: #DAF2CF;
+}
+
+.crab-page-footer
+{
+   position: relative;
+   z-index: auto !important;
+   padding: 1em;
+   text-align: center !important;
+   text-decoration: none;
+   color: #F5F5F5;
+}
+
+.crab-lightbox-wrapper 
+{
+   background: #333;
+   background: rgba(0, 0, 0, .8);
+   bottom: 0;
+   left: 0;
+   padding: 0 100px;
+   position: fixed;
+   right: 0;
+   text-align: center;
+   top: 0;
+   z-index: 1000000;
+}
+
+.crab-lightbox,
+.crab-lightbox-wrapper .crab-lightbox-image
+{
+   cursor: pointer;
+}
+
+.crab-lightbox-wrapper .crab-lightbox-image
+{
+   border: 6px solid #fff;
+   border-radius: 3px;
+   display: none;
+   max-width: 100%;
+   vertical-align: middle;
+}
+
+.crab-lightbox-wrapper .crab-lightbox-image.active
+{
+   display: inline-block;
+}
+
+.crab-lightbox-wrapper .lightbox-error
+{
+   background: #fff;
+   border: 1px solid #b4b4b4;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px #333;
+   height: 80px;
+   opacity: .95;
+   padding: 20px;
+   position: fixed;
+   width: 300px;
+   z-index: 100;
+}
+
+.crab-lightbox-wrapper .loading
+{
+   background: #fff url('images/preloader-01.gif') center center no-repeat;
+   border: 1px solid #b4b4b4;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px #333;
+   height: 32px;
+   opacity: .5;
+   padding: 10px;
+   position: fixed;
+   width: 32px;
+   z-index: 10100;
+}
+
+.crab-lightbox-wrapper .arrow
+{
+   cursor: pointer;
+   height: 100px;
+   opacity: .5;
+   filter: alpha(opacity=50);
+   position: fixed;
+   width: 82px;
+   z-index: 10003;
+}
+
+.crab-lightbox-wrapper .arrow.left
+{
+   left: 9px;
+}
+
+.crab-lightbox-wrapper .arrow.right
+{
+   right: 9px;
+}
+
+.crab-lightbox-wrapper .arrow:hover
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.crab-lightbox-wrapper .arrow.disabled 
+{
+   display: none;
+}
+
+.crab-lightbox-wrapper .arrow-t, 
+.crab-lightbox-wrapper .arrow-b
+{
+   background-color: #fff;
+   border-radius: 3px;
+   height: 6px;
+   left: 26px;
+   position: relative;
+   width: 30px;
+}
+
+.crab-lightbox-wrapper .arrow-t
+{
+   top: 38px;
+}
+
+.crab-lightbox-wrapper .arrow-b
+{
+   top: 50px;
+}
+
+.crab-lightbox-wrapper .close
+{
+   cursor: pointer;
+   height: 22px;
+   opacity: .5;
+   filter: alpha(opacity=50);
+   position: fixed;
+   right: 39px;
+   top: 30px;
+   width: 22px;
+   z-index: 10003;
+}
+
+.crab-lightbox-wrapper .close:hover 
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.crab-lightbox-wrapper .close .cw, 
+.crab-lightbox-wrapper .close .ccw
+{
+   background-color: #fff;
+   border-radius: 3px;
+   height: 6px;
+   position: absolute;
+   left: -4px;
+   top: 8px;
+   width: 30px;
+}
+
+.crab-lightbox-wrapper .cw
+{
+   transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   /* IE 9 */
+    -webkit-transform: rotate(45deg);
+   /* Safari and Chrome */
+    -o-transform: rotate(45deg);
+   /* Opera */
+    -moz-transform: rotate(45deg);
+/* Firefox */}
+
+.crab-lightbox-wrapper .ccw
+{
+   transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   /* IE 9 */
+    -webkit-transform: rotate(-45deg);
+   /* Safari and Chrome */
+    -o-transform: rotate(-45deg);
+   /* Opera */
+    -moz-transform: rotate(-45deg);
+/* Firefox */}
+
+.crab-lightbox-wrapper .close-alt, 
+.crab-lightbox-wrapper .arrow-right-alt, 
+.crab-lightbox-wrapper .arrow-left-alt 
+{
+   color: #fff;
+   display: none;
+   font-size: 2.5em;
+   line-height: 100%;
+}
+
+.ie8 .crab-lightbox-wrapper .close-alt, 
+.ie8 .crab-lightbox-wrapper .arrow-right-alt, 
+.ie8 .crab-lightbox-wrapper .arrow-left-alt 
+{
+   display: block;
+}
+
+.ie8 .crab-lightbox-wrapper .cw, 
+.ie8 .crab-lightbox-wrapper .ccw 
+{
+   display: none;
+}
+
+.crab-content-layout .crab-content
+{
+   margin:0 auto;
+}
+
+/* Begin Additional CSS Styles */
+.newsdate {
+background: #f0f0f0;
+color: #737373;
+padding: 10px;
+width: 40px;
+height: 40px;
+float: left;
+margin-right: 10px;
+margin-bottom: 25px;
+text-align:center;
+}
+.crab-blockheader .t, .crab-vmenublockheader .t {white-space: nowrap;}
+/* End Additional CSS Styles */

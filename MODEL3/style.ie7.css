@@ -1,0 +1,118 @@
+/* Created by Artisteer v4.1.0.60046 */
+
+.crab-header, #crab-header-bg, .crab-layout-cell, .crab-layout-wrapper, .crab-footer, .crab-nav, #crab-hmenu-bg, .crab-sheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.crab-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.crab-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#crab-header-bg 
+{
+   display: none;
+}
+
+.crab-hmenu>li, .crab-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.crab-hmenu, ul.crab-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+#crab-hmenu-bg 
+{
+   display: none;
+}
+
+ul.crab-hmenu>li:first-child {
+   padding-right:0;
+}
+
+ul.crab-hmenu ul{
+   background-color: #179BD3 !important;
+}
+
+.crab-content-layout, .crab-content-layout-row, .crab-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.crab-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.crab-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.crab-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.crab-search>input[type="text"] 
+{
+   margin :0;
+}
+
+.crab-postmetadataheader{
+   zoom:1;
+}
+
+.crab-postheadericons span{
+   zoom: 1;
+}
+.crab-postcontent {
+   height: 1%;
+}
+
+.crab-postmetadatafooter{
+   zoom:1;
+}
+
+.crab-postfootericons span{
+   zoom: 1;
+}
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.crab-content 
+{
+   width: auto;
+   float:none;
+}
+
